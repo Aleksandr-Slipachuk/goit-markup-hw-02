@@ -57,3 +57,36 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+
+/* ==== Hero ==== */
+
+.hero-image {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.order-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
